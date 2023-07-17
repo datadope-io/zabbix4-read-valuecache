@@ -1,5 +1,7 @@
 # Zabbix v4 value cache analyzer
 
+**In Zabbix >= v5.0 a similar information could be extracted with ``zabbix_server -R diaginfo=valuecache``**.
+
 Application to look inside of the zabbix_server memory to get which data is being stored in the value cache.
 
 In the ``-p`` parameter put the PID of the zabbix_server parent process.
